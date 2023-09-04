@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E705B4CD2A96B1D800CBD684 /* ALLiOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4CC2A96B1D800CBD684 /* ALLiOApp.swift */; };
+		E705B4CF2A96B1D800CBD684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4CE2A96B1D800CBD684 /* ContentView.swift */; };
+		E705B4D12A96B1D800CBD684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E705B4D02A96B1D800CBD684 /* Assets.xcassets */; };
+		E705B4D42A96B1D800CBD684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E705B4D32A96B1D800CBD684 /* Preview Assets.xcassets */; };
+		E705B4DB2A96B37000CBD684 /* ALLiO_News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4DA2A96B37000CBD684 /* ALLiO_News.swift */; };
+		E705B4DD2A96B39100CBD684 /* ALLiO_Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4DC2A96B39100CBD684 /* ALLiO_Pictures.swift */; };
+		E705B4DF2A96B3B400CBD684 /* ALLiO_Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4DE2A96B3B400CBD684 /* ALLiO_Videos.swift */; };
+		E7BB7E302AA678A0007D67AC /* ALLiO_News_Profile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */; };
+		E7BB7E322AA678B5007D67AC /* ALLiO_News_Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */; };
+		E7BB7E342AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */; };
+		E7BB7E362AA67AAA007D67AC /* ALLiO_Pictures_Profile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E352AA67AAA007D67AC /* ALLiO_Pictures_Profile_View.swift */; };
+		E7BB7E392AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E382AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift */; };
+		E7BB7E3B2AA67B60007D67AC /* ALLiO_Videos_Profile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E3A2AA67B60007D67AC /* ALLiO_Videos_Profile_View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E705B4C92A96B1D800CBD684 /* ALLiO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALLiO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E705B4CC2A96B1D800CBD684 /* ALLiOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiOApp.swift; sourceTree = "<group>"; };
+		E705B4CE2A96B1D800CBD684 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E705B4D02A96B1D800CBD684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E705B4D32A96B1D800CBD684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E705B4DA2A96B37000CBD684 /* ALLiO_News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News.swift; sourceTree = "<group>"; };
+		E705B4DC2A96B39100CBD684 /* ALLiO_Pictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Pictures.swift; sourceTree = "<group>"; };
+		E705B4DE2A96B3B400CBD684 /* ALLiO_Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Videos.swift; sourceTree = "<group>"; };
+		E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Profile_View.swift; sourceTree = "<group>"; };
+		E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Main_View.swift; sourceTree = "<group>"; };
+		E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Pictures_Main_View.swift; sourceTree = "<group>"; };
+		E7BB7E352AA67AAA007D67AC /* ALLiO_Pictures_Profile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Pictures_Profile_View.swift; sourceTree = "<group>"; };
+		E7BB7E382AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Videos_Main_View.swift; sourceTree = "<group>"; };
+		E7BB7E3A2AA67B60007D67AC /* ALLiO_Videos_Profile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Videos_Profile_View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E705B4C62A96B1D800CBD684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E705B4C02A96B1D800CBD684 = {
+			isa = PBXGroup;
+			children = (
+				E705B4CB2A96B1D800CBD684 /* ALLiO */,
+				E705B4CA2A96B1D800CBD684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E705B4CA2A96B1D800CBD684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E705B4C92A96B1D800CBD684 /* ALLiO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E705B4CB2A96B1D800CBD684 /* ALLiO */ = {
+			isa = PBXGroup;
+			children = (
+				E705B4CC2A96B1D800CBD684 /* ALLiOApp.swift */,
+				E705B4CE2A96B1D800CBD684 /* ContentView.swift */,
+				E7BB7E372AA67AB9007D67AC /* Views */,
+				E705B4D02A96B1D800CBD684 /* Assets.xcassets */,
+				E705B4D22A96B1D800CBD684 /* Preview Content */,
+			);
+			path = ALLiO;
+			sourceTree = "<group>";
+		};
+		E705B4D22A96B1D800CBD684 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E705B4D32A96B1D800CBD684 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7BB7E372AA67AB9007D67AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */,
+				E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */,
+				E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */,
+				E7BB7E352AA67AAA007D67AC /* ALLiO_Pictures_Profile_View.swift */,
+				E7BB7E382AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift */,
+				E7BB7E3A2AA67B60007D67AC /* ALLiO_Videos_Profile_View.swift */,
+				E705B4DA2A96B37000CBD684 /* ALLiO_News.swift */,
+				E705B4DC2A96B39100CBD684 /* ALLiO_Pictures.swift */,
+				E705B4DE2A96B3B400CBD684 /* ALLiO_Videos.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E705B4C82A96B1D800CBD684 /* ALLiO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E705B4D72A96B1D800CBD684 /* Build configuration list for PBXNativeTarget "ALLiO" */;
+			buildPhases = (
+				E705B4C52A96B1D800CBD684 /* Sources */,
+				E705B4C62A96B1D800CBD684 /* Frameworks */,
+				E705B4C72A96B1D800CBD684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALLiO;
+			productName = ALLiO;
+			productReference = E705B4C92A96B1D800CBD684 /* ALLiO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E705B4C12A96B1D800CBD684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E705B4C82A96B1D800CBD684 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E705B4C42A96B1D800CBD684 /* Build configuration list for PBXProject "ALLiO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E705B4C02A96B1D800CBD684;
+			productRefGroup = E705B4CA2A96B1D800CBD684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E705B4C82A96B1D800CBD684 /* ALLiO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E705B4C72A96B1D800CBD684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E705B4D42A96B1D800CBD684 /* Preview Assets.xcassets in Resources */,
+				E705B4D12A96B1D800CBD684 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E705B4C52A96B1D800CBD684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E705B4DB2A96B37000CBD684 /* ALLiO_News.swift in Sources */,
+				E7BB7E392AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift in Sources */,
+				E7BB7E302AA678A0007D67AC /* ALLiO_News_Profile_View.swift in Sources */,
+				E7BB7E3B2AA67B60007D67AC /* ALLiO_Videos_Profile_View.swift in Sources */,
+				E7BB7E322AA678B5007D67AC /* ALLiO_News_Main_View.swift in Sources */,
+				E7BB7E362AA67AAA007D67AC /* ALLiO_Pictures_Profile_View.swift in Sources */,
+				E705B4DF2A96B3B400CBD684 /* ALLiO_Videos.swift in Sources */,
+				E705B4CF2A96B1D800CBD684 /* ContentView.swift in Sources */,
+				E705B4DD2A96B39100CBD684 /* ALLiO_Pictures.swift in Sources */,
+				E7BB7E342AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift in Sources */,
+				E705B4CD2A96B1D800CBD684 /* ALLiOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E705B4D52A96B1D800CBD684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E705B4D62A96B1D800CBD684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E705B4D82A96B1D800CBD684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALLiO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ALLiO.ALLiO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E705B4D92A96B1D800CBD684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALLiO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ALLiO.ALLiO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E705B4C42A96B1D800CBD684 /* Build configuration list for PBXProject "ALLiO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E705B4D52A96B1D800CBD684 /* Debug */,
+				E705B4D62A96B1D800CBD684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E705B4D72A96B1D800CBD684 /* Build configuration list for PBXNativeTarget "ALLiO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E705B4D82A96B1D800CBD684 /* Debug */,
+				E705B4D92A96B1D800CBD684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E705B4C12A96B1D800CBD684 /* Project object */;
+}
