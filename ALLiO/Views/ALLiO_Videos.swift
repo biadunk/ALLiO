@@ -18,8 +18,8 @@ struct ALLiO_Videos: View {
             
             ALLiO_Videos_Profile_View()
                 .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
+                    Image(systemName: "person")
+                    Text("Profile")
                 }
         }
         .accentColor(Color.black)
