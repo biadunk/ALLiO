@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct ALLiO_Videos_Main_View: View {
+    
+    var Videos: [Video] = VideoList.all_videos
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List (Videos, id: \.id) { videos in
+                HStack{
+                    Image(videos.video_image)
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(10)
+                        .frame(width: 100, height: 60)
+                    VStack{
+                        Text(videos.title)
+                            .padding()
+                        Text(videos.upload_date)
+                            .font(.system(size: 10))
+                        Spacer()
+                    }
+                }
+            }
+        }
     }
 }
 

@@ -14,6 +14,8 @@
 		E705B4DB2A96B37000CBD684 /* ALLiO_News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4DA2A96B37000CBD684 /* ALLiO_News.swift */; };
 		E705B4DD2A96B39100CBD684 /* ALLiO_Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4DC2A96B39100CBD684 /* ALLiO_Pictures.swift */; };
 		E705B4DF2A96B3B400CBD684 /* ALLiO_Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4DE2A96B3B400CBD684 /* ALLiO_Videos.swift */; };
+		E71DA0932AA916C50086A802 /* Videos_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71DA0922AA916C50086A802 /* Videos_Data.swift */; };
+		E722F4D22AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722F4D12AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift */; };
 		E7BB7E302AA678A0007D67AC /* ALLiO_News_Profile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */; };
 		E7BB7E322AA678B5007D67AC /* ALLiO_News_Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */; };
 		E7BB7E342AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */; };
@@ -31,6 +33,8 @@
 		E705B4DA2A96B37000CBD684 /* ALLiO_News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News.swift; sourceTree = "<group>"; };
 		E705B4DC2A96B39100CBD684 /* ALLiO_Pictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Pictures.swift; sourceTree = "<group>"; };
 		E705B4DE2A96B3B400CBD684 /* ALLiO_Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Videos.swift; sourceTree = "<group>"; };
+		E71DA0922AA916C50086A802 /* Videos_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos_Data.swift; sourceTree = "<group>"; };
+		E722F4D12AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Comment_View.swift; sourceTree = "<group>"; };
 		E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Profile_View.swift; sourceTree = "<group>"; };
 		E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Main_View.swift; sourceTree = "<group>"; };
 		E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Pictures_Main_View.swift; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 			children = (
 				E705B4CC2A96B1D800CBD684 /* ALLiOApp.swift */,
 				E705B4CE2A96B1D800CBD684 /* ContentView.swift */,
+				E71DA0912AA9169B0086A802 /* Models */,
 				E7BB7E372AA67AB9007D67AC /* Views */,
 				E705B4D02A96B1D800CBD684 /* Assets.xcassets */,
 				E705B4D22A96B1D800CBD684 /* Preview Content */,
@@ -86,11 +91,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E71DA0912AA9169B0086A802 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E71DA0922AA916C50086A802 /* Videos_Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E7BB7E372AA67AB9007D67AC /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */,
 				E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */,
+				E722F4D12AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift */,
 				E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */,
 				E7BB7E352AA67AAA007D67AC /* ALLiO_Pictures_Profile_View.swift */,
 				E7BB7E382AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift */,
@@ -175,11 +189,13 @@
 				E705B4DB2A96B37000CBD684 /* ALLiO_News.swift in Sources */,
 				E7BB7E392AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift in Sources */,
 				E7BB7E302AA678A0007D67AC /* ALLiO_News_Profile_View.swift in Sources */,
+				E71DA0932AA916C50086A802 /* Videos_Data.swift in Sources */,
 				E7BB7E3B2AA67B60007D67AC /* ALLiO_Videos_Profile_View.swift in Sources */,
 				E7BB7E322AA678B5007D67AC /* ALLiO_News_Main_View.swift in Sources */,
 				E7BB7E362AA67AAA007D67AC /* ALLiO_Pictures_Profile_View.swift in Sources */,
 				E705B4DF2A96B3B400CBD684 /* ALLiO_Videos.swift in Sources */,
 				E705B4CF2A96B1D800CBD684 /* ContentView.swift in Sources */,
+				E722F4D22AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift in Sources */,
 				E705B4DD2A96B39100CBD684 /* ALLiO_Pictures.swift in Sources */,
 				E7BB7E342AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift in Sources */,
 				E705B4CD2A96B1D800CBD684 /* ALLiOApp.swift in Sources */,

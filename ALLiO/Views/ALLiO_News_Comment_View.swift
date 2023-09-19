@@ -8,8 +8,40 @@
 import SwiftUI
 
 struct ALLiO_News_Comment_View: View {
+    @State private var comment_News: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack{
+                List{ //comments list
+                    HStack{
+                        VStack{
+                            NavigationLink(destination: ALLiO_News_Profile_View()) {
+                                Image(systemName: "person")
+                            }
+                            .padding(25)
+                            NavigationLink(destination: ALLiO_News_Profile_View()) {
+                                Text("Username")
+                        }
+                        }
+                        Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500")
+                            .frame(alignment: .center)
+                    }
+                    
+                    HStack{
+                        TextField(
+                            "Comment post",
+                            text: $comment_News
+                        )
+                        Button {
+                            //post comment
+                        } label: {
+                            Image(systemName: "paperplane.fill")
+                        }
+                        .foregroundColor(Color.cyan)
+                    }
+                }
+            }
+        }
     }
 }
 
