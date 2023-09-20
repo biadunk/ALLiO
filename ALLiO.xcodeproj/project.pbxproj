@@ -16,6 +16,7 @@
 		E705B4DF2A96B3B400CBD684 /* ALLiO_Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4DE2A96B3B400CBD684 /* ALLiO_Videos.swift */; };
 		E71DA0932AA916C50086A802 /* Videos_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71DA0922AA916C50086A802 /* Videos_Data.swift */; };
 		E722F4D22AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722F4D12AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift */; };
+		E7953C7F2ABB833A001586CF /* ALLiO_Search_News_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7953C7E2ABB833A001586CF /* ALLiO_Search_News_View.swift */; };
 		E7BB7E302AA678A0007D67AC /* ALLiO_News_Profile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */; };
 		E7BB7E322AA678B5007D67AC /* ALLiO_News_Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */; };
 		E7BB7E342AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */; };
@@ -35,6 +36,7 @@
 		E705B4DE2A96B3B400CBD684 /* ALLiO_Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Videos.swift; sourceTree = "<group>"; };
 		E71DA0922AA916C50086A802 /* Videos_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos_Data.swift; sourceTree = "<group>"; };
 		E722F4D12AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Comment_View.swift; sourceTree = "<group>"; };
+		E7953C7E2ABB833A001586CF /* ALLiO_Search_News_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Search_News_View.swift; sourceTree = "<group>"; };
 		E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Profile_View.swift; sourceTree = "<group>"; };
 		E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_News_Main_View.swift; sourceTree = "<group>"; };
 		E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiO_Pictures_Main_View.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E7BB7E312AA678B5007D67AC /* ALLiO_News_Main_View.swift */,
+				E7953C7E2ABB833A001586CF /* ALLiO_Search_News_View.swift */,
 				E7BB7E2F2AA678A0007D67AC /* ALLiO_News_Profile_View.swift */,
 				E722F4D12AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift */,
 				E7BB7E332AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift */,
@@ -197,6 +200,7 @@
 				E705B4CF2A96B1D800CBD684 /* ContentView.swift in Sources */,
 				E722F4D22AB8E3D000E549F5 /* ALLiO_News_Comment_View.swift in Sources */,
 				E705B4DD2A96B39100CBD684 /* ALLiO_Pictures.swift in Sources */,
+				E7953C7F2ABB833A001586CF /* ALLiO_Search_News_View.swift in Sources */,
 				E7BB7E342AA67A93007D67AC /* ALLiO_Pictures_Main_View.swift in Sources */,
 				E705B4CD2A96B1D800CBD684 /* ALLiOApp.swift in Sources */,
 			);
