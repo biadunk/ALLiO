@@ -37,7 +37,6 @@ struct ALLiO_News_Main_View: View {
                                 }
                             }
                             
-                            
                             Image(post.newsPhoto)
                                 .resizable()
                                 .frame(width: 350, height: 330)
@@ -83,15 +82,17 @@ struct ALLiO_News_Main_View: View {
             .toolbar {
                 ToolbarItemGroup {
                     Image(systemName: "newspaper.fill")
-                        .padding(.leading, 16)
-                    Spacer()
+                        
                     Text("News")
-                    Spacer()
+                        .padding(90)
+                        .font(.system(size: 25))
+                    
                     NavigationLink {
                         ALLiO_Search_News_View()
                     } label: {
                         Image(systemName: "magnifyingglass")
                     }
+                    .padding(.trailing, 16)
                 }
             }
         }

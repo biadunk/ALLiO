@@ -21,10 +21,10 @@ struct ALLiO_Pictures_Main_View: View {
                     Button {
                         self.didTap.toggle()
                     } label: {
-                        Image(systemName: "heart")
+                        Image(systemName: didTap ? "heart" : "heart.fill")
                     }
-                    .background(didTap ? Color.white : Color.red)
                     .frame(width: 100, height: 100)
+                    .tint(Color(.red))
 
                 }
                 
