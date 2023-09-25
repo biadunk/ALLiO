@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ALLiO_Search_News_View: View {
     
-    @Binding var searching_Text: String
+    @State var searching_Text: String = ""
     @State private var is_Editing: Bool = false
     
     var body: some View {
@@ -27,14 +27,15 @@ struct ALLiO_Search_News_View: View {
         
                 if is_Editing == true {
                     Button {
-                        self.is_Editing = false
-                        self.searching_Text = ""
+                        withAnimation(.default) {
+                            self.is_Editing = false
+                            self.searching_Text = ""
+                        }
                     } label: {
                         Text("Cancel")
                     }
                     .padding(.trailing, 10)
                     .transition(.move(edge: .trailing))
-                    .animation(.default)
                 }
                 
                 List{
