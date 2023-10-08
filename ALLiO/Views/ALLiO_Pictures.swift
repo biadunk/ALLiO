@@ -9,21 +9,22 @@ import SwiftUI
 
 struct ALLiO_Pictures: View {
     var body: some View {
-        TabView {
-            ALLiO_Pictures_Main_View()
-                .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
-                }
-            
-            ALLiO_Pictures_Profile_View()
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("Profile")
-                }
-        }
-        .accentColor(Color.black)
-        .ignoresSafeArea()
+        ALLiO_Pictures_Main_View()
+//        TabView {
+//            ALLiO_Pictures_Main_View()
+//                .tabItem {
+//                    Image(systemName: "house")
+//                    Text("Home")
+//                }
+//            
+//            ALLiO_Pictures_Profile_View()
+//                .tabItem {
+//                    Image(systemName: "person")
+//                    Text("Profile")
+//                }
+//        }
+//        .accentColor(Color.black)
+//        .ignoresSafeArea()
     }
 }
 

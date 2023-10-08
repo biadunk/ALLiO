@@ -29,13 +29,15 @@ struct ALLiO_Pictures_Main_View: View {
                                     Image(systemName: post.userPhoto)
                                     Text(post.username)
                                 }
+                                .padding()
                             }
                             
                             Image("Instagram-apk")
                                 .resizable()
                                 .frame(width: 350, height: 330)
+                                .padding()
                             
-                            HStack{
+                            HStack (spacing: 60) {
                                 Button {
                                     if let postIndex = postPictures.firstIndex(
                                         where: { $0.id == post.id }
@@ -66,27 +68,66 @@ struct ALLiO_Pictures_Main_View: View {
                                         .frame(width: 30, height: 30)
                                         .tint(Color.red)
                                 }
-
-                                
-
                             }
-                            
-                            
-
                         }
                     }
                 }
             }
             .toolbar {
-                ToolbarItemGroup {
-                    Image(systemName: "photo")
+                ToolbarItemGroup{
+                    HStack (spacing: 190){
+                        Text("Pictures")
+                            .padding()
+                            .font(.system(size: 25))
                         
-                    Text("Pictures")
-                        .padding(90)
-                        .font(.system(size: 25))
+                        HStack{
+                            NavigationLink {
+                                //notofications
+                            } label: {
+                                Image(systemName: "heart")
+                            }
+                            
+                            NavigationLink {
+                                //DM
+                            } label: {
+                                Image(systemName: "paperplane.fill")
+                            }
+
+                        }
+                    }
+                }
+            }
+            .toolbar{
+                ToolbarItem(placement: .bottomBar){
+                    HStack (spacing: 60){
+                        NavigationLink {
+                            ALLiO_Pictures_Main_View()
+                        } label: {
+                            Image(systemName: "house")
+                        }
+                        
+                        NavigationLink {
+                            //search
+                        } label: {
+                            Image(systemName: "magnifyingglass")
+                        }
+
+                        NavigationLink {
+                            //add
+                        } label: {
+                            Image(systemName: "plus")
+                        }
+                        
+                        NavigationLink {
+                            //myProfile
+                        } label: {
+                            Image(systemName: "person.circle")
+                        }
+                    }
                 }
             }
         }
+        .tint(Color.black)
     }
 }
 
