@@ -10,6 +10,8 @@ import SwiftUI
 struct ALLiO_Pictures_Main_View: View {
     @State private var didTap: Bool = false
     @State private var didTapComment: Bool = false
+    @State private var isPresentedComment: Bool = false
+    @State private var isPresentedShare: Bool = false
     
     @State var postPictures: [PostsOfPictures] = [
         .init(userPhoto: "person", username: "Username", photo: "Instagram-apk", description: "Lorem ipsum", didTap: false)
@@ -47,26 +49,32 @@ struct ALLiO_Pictures_Main_View: View {
                                 } label: {
                                     Image(systemName: post.didTap ? "heart.fill" : "heart")
                                         .resizable()
-                                        .frame(width: 30, height: 30)
+                                        .frame(width: 25, height: 25)
                                         .tint(Color.red)
                                 }
                                 
                                 Button {
-                                    //coment
+                                    self.isPresentedComment.toggle()
                                 } label: {
                                     Image(systemName: "message")
                                         .resizable()
-                                        .frame(width: 30, height: 30)
+                                        .frame(width: 25, height: 25)
                                         .tint(Color.red)
+                                        .sheet(isPresented: $isPresentedComment) {
+                                            ALLiOPicturesCommentView()
+                                        }
                                 }
                                 
                                 Button{
-                                    //share
+                                    self.isPresentedShare.toggle()
                                 } label: {
                                     Image(systemName: "paperplane.fill")
                                         .resizable()
-                                        .frame(width: 30, height: 30)
+                                        .frame(width: 25, height: 25)
                                         .tint(Color.red)
+                                        .sheet(isPresented: $isPresentedShare) {
+                                            ALLiOPicturesShareView()
+                                        }
                                 }
                             }
                         }
@@ -75,11 +83,6 @@ struct ALLiO_Pictures_Main_View: View {
             }
             .toolbar {
                 ToolbarItemGroup{
-                    HStack (spacing: 190){
-                        Text("Pictures")
-                            .padding()
-                            .font(.system(size: 25))
-                        
                         HStack{
                             NavigationLink {
                                 //notofications
@@ -94,7 +97,6 @@ struct ALLiO_Pictures_Main_View: View {
                             }
 
                         }
-                    }
                 }
             }
             .toolbar{
@@ -126,6 +128,7 @@ struct ALLiO_Pictures_Main_View: View {
                     }
                 }
             }
+            .navigationTitle("Pictures")
         }
         .tint(Color.black)
     }
