@@ -12,6 +12,9 @@ struct ALLiO_Pictures_Main_View: View {
     @State private var didTapComment: Bool = false
     @State private var isPresentedComment: Bool = false
     @State private var isPresentedShare: Bool = false
+    //ImagePicerVariables
+    @State private var showImagePicker: Bool = false
+    @State var selectedImage: Image? = Image("")
     
     @State var postPictures: [PostsOfPictures] = [
         .init(userPhoto: "person", username: "Username", photo: "Instagram-apk", description: "Lorem ipsum", didTap: false)
@@ -114,17 +117,20 @@ struct ALLiO_Pictures_Main_View: View {
                             Image(systemName: "magnifyingglass")
                         }
 
-                        NavigationLink {
-                            //add
+                        Button{
+                            self.showImagePicker.toggle()
                         } label: {
                             Image(systemName: "plus")
                         }
+                        
                         
                         NavigationLink {
                             //myProfile
                         } label: {
                             Image(systemName: "person.circle")
                         }
+                    }.sheet(isPresented: self.$showImagePicker) {
+                        ImagePicker(image: self.$selectedImage)
                     }
                 }
             }

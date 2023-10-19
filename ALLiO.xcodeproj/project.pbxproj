@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		51E7E4C92AE1A75C00AF5674 /* ALLiOPicturesCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E7E4C82AE1A75C00AF5674 /* ALLiOPicturesCommentView.swift */; };
 		51E7E4CB2AE1A80B00AF5674 /* ALLiOPicturesShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E7E4CA2AE1A80B00AF5674 /* ALLiOPicturesShareView.swift */; };
+		51E7E4D12AE1ABC900AF5674 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E7E4D02AE1ABC900AF5674 /* ImagePicker.swift */; };
 		E705B4CD2A96B1D800CBD684 /* ALLiOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4CC2A96B1D800CBD684 /* ALLiOApp.swift */; };
 		E705B4CF2A96B1D800CBD684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E705B4CE2A96B1D800CBD684 /* ContentView.swift */; };
 		E705B4D12A96B1D800CBD684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E705B4D02A96B1D800CBD684 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		51E7E4C82AE1A75C00AF5674 /* ALLiOPicturesCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiOPicturesCommentView.swift; sourceTree = "<group>"; };
 		51E7E4CA2AE1A80B00AF5674 /* ALLiOPicturesShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiOPicturesShareView.swift; sourceTree = "<group>"; };
+		51E7E4D02AE1ABC900AF5674 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		E705B4C92A96B1D800CBD684 /* ALLiO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALLiO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E705B4CC2A96B1D800CBD684 /* ALLiOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALLiOApp.swift; sourceTree = "<group>"; };
 		E705B4CE2A96B1D800CBD684 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51E7E4CD2AE1AB5800AF5674 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				51E7E4D02AE1ABC900AF5674 /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
 		E705B4C02A96B1D800CBD684 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 				E705B4CE2A96B1D800CBD684 /* ContentView.swift */,
 				E71DA0912AA9169B0086A802 /* Models */,
 				E7BB7E372AA67AB9007D67AC /* Views */,
+				51E7E4CD2AE1AB5800AF5674 /* ImagePicker */,
 				E705B4D02A96B1D800CBD684 /* Assets.xcassets */,
 				E705B4D22A96B1D800CBD684 /* Preview Content */,
 			);
@@ -198,6 +209,7 @@
 				E705B4DB2A96B37000CBD684 /* ALLiO_News.swift in Sources */,
 				E7BB7E392AA67B4A007D67AC /* ALLiO_Videos_Main_View.swift in Sources */,
 				E7BB7E302AA678A0007D67AC /* ALLiO_News_Profile_View.swift in Sources */,
+				51E7E4D12AE1ABC900AF5674 /* ImagePicker.swift in Sources */,
 				51E7E4C92AE1A75C00AF5674 /* ALLiOPicturesCommentView.swift in Sources */,
 				E71DA0932AA916C50086A802 /* Videos_Data.swift in Sources */,
 				51E7E4CB2AE1A80B00AF5674 /* ALLiOPicturesShareView.swift in Sources */,
